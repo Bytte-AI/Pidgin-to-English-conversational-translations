@@ -1,7 +1,7 @@
 # Pidgin-to-English Translation Dataset (Sample)
 ## Data Card v1.0
 
-**Dataset Name:** BBC Pidgin-to-English Translation Dataset (Sample)  
+**Dataset Name:** Pidgin-to-English Translation Dataset (Sample)  
 **Dataset Type:** Sample Dataset  
 **Version:** 1.0  
 **Release Date:** 2026  
@@ -29,7 +29,7 @@
 
 ## Dataset Overview
 
-The BBC Pidgin-to-English Translation Dataset is a conversational-style translation corpus containing 122 Pidgin-English to Standard English translation pairs. This **sample dataset** is designed to support machine translation research, low-resource language processing, and cross-lingual understanding between Nigerian Pidgin and English.
+The Pidgin-to-English Translation Dataset is a conversational-style translation corpus containing 122 Pidgin-English to Standard English translation pairs. This **sample dataset** is designed to support machine translation research, low-resource language processing, and cross-lingual understanding between Nigerian Pidgin and English.
 
 **Sample Dataset Characteristics:** This dataset represents a curated sample of translation pairs demonstrating typical Pidgin-English conversational patterns and translation challenges. It showcases authentic Pidgin grammatical features and provides a foundation for prototyping translation systems.
 
@@ -91,17 +91,17 @@ These markers demonstrate authentic Nigerian Pidgin grammatical features includi
 
 ### Source
 
-The dataset consists of translation pairs created to represent common Nigerian Pidgin expressions and their English equivalents. The source material draws from:
+The dataset consists of translation pairs created through conversational interactions with AI chatbots. These translations represent common Nigerian Pidgin expressions and their English equivalents generated through:
 
-- Everyday conversational contexts
-- Common Nigerian cultural expressions
-- Typical social interactions in Pidgin-speaking communities
+- AI-assisted conversation and translation
+- Conversational exchanges modeling typical Pidgin usage
+- Human review and validation of AI-generated pairs
 
 ### Creation Methodology
 
-- **Approach:** Conversational translation format
+- **Approach:** Conversational translation format generated through AI chatbot interactions
 - **Structure:** JSON objects with user/assistant conversation pairs
-- **Quality Control:** Human review and validation
+- **Quality Control:** Human review and validation of AI-generated translations
 - **Annotation:** Single category assignment per sample
 
 ### Data Characteristics
@@ -498,8 +498,8 @@ English: Sure! Here's a light-hearted Jollof rice joke:
 
 ### Download Locations
 
-- **Hugging Face:** https://huggingface.co/datasets/Bytte-AI/BBC_Igbo-Pidgin_Gold-Standard_NLP_Corpus
-- **Figshare:** https://figshare.com/articles/dataset/BBC_Igbo_Pidgin_Gold-Standard_NLP_Corpus/31249567
+- **Hugging Face:** https://huggingface.co/datasets/Bytte-AI/Pidgin-to-English-conversational-translations
+- **Figshare:** https://figshare.com/articles/dataset/_b_Pidgin-to-English-translations_b_/31259068
 
 ### File Information
 
@@ -535,19 +535,21 @@ If you use this dataset in your research or applications, please cite:
 ```bibtex
 @dataset{bytte_ai_pidgin_english_translation_2026,
   author    = {Bytte AI},
-  title     = {BBC Pidgin-to-English Translation Dataset (Sample)},
+  title     = {Pidgin-to-English Translation Dataset (Sample)},
   year      = {2026},
   version   = {1.0},
-  note      = {Sample dataset - Part of BBC Igbo–Pidgin Gold-Standard NLP Corpus},
+  note      = {Sample dataset - AI chatbot-generated translations},
   publisher = {Hugging Face and Figshare},
-  url       = {https://huggingface.co/datasets/Bytte-AI/BBC_Igbo-Pidgin_Gold-Standard_NLP_Corpus},
+  url       = {https://huggingface.co/datasets/Bytte-AI/Pidgin-to-English-conversational-translations},
   license   = {CC-BY-4.0}
 }
 ```
 
 **APA Format:**
 ```
-Bytte AI. (2026). BBC Pidgin-to-English Translation Dataset (Sample) (Version 1.0) [Data set]. 
+Bytte AI. (2026). Pidgin-to-English Translation Dataset (Sample) (Version 1.0) [Data set]. 
+Hugging Face. https://huggingface.co/datasets/Bytte-AI/Pidgin-to-English-conversational-translations
+``` 
 Part of BBC Igbo–Pidgin Gold-Standard NLP Corpus. Hugging Face. 
 https://huggingface.co/datasets/Bytte-AI/BBC_Igbo-Pidgin_Gold-Standard_NLP_Corpus
 ```
@@ -566,7 +568,7 @@ For questions, feedback, or to report data quality issues, please contact us via
 
 ## Acknowledgments
 
-This translation dataset was created by Bytte AI as part of the broader BBC Igbo–Pidgin Gold-Standard NLP Corpus. We acknowledge the importance of Nigerian Pidgin as a vital language for millions of West Africans and the need for high-quality linguistic resources to support digital inclusion and NLP research.
+This translation dataset was created by Bytte AI through AI chatbot interactions with human validation. We acknowledge the importance of Nigerian Pidgin as a vital language for millions of West Africans and the need for high-quality linguistic resources to support digital inclusion and NLP research.
 
 ---
 
