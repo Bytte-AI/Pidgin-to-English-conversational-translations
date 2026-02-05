@@ -1,4 +1,4 @@
-# BBC Pidgin-to-English Translation Dataset (Sample)
+# Pidgin-to-English Translation Dataset (Sample)
 
 <div align="center">
 
