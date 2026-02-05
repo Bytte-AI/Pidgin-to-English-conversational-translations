@@ -19,7 +19,7 @@
 
 ## 📋 Overview
 
-The **BBC Pidgin-to-English Translation Dataset (Sample)** is a conversational-style parallel corpus containing 122 translation pairs from Nigerian Pidgin English to Standard English. Created by **Bytte AI**, this sample dataset supports machine translation research, low-resource NLP, and cross-lingual understanding for African languages.
+The **Pidgin-to-English Translation Dataset (Sample)** is a conversational-style parallel corpus containing 122 translation pairs from Nigerian Pidgin English to Standard English. Created by **Bytte AI**, this sample dataset supports machine translation research, low-resource NLP, and cross-lingual understanding for African languages.
 
 > **📌 Sample Dataset Notice:** This is a **sample dataset** with 122 curated translation pairs. It demonstrates authentic Pidgin features and translation challenges, ideal for prototyping, fine-tuning, and initial MT research.
 
@@ -459,10 +459,10 @@ for item in data:
 ```bibtex
 @dataset{bytte_ai_pidgin_english_translation_2026,
   author    = {Bytte AI},
-  title     = {BBC Pidgin-to-English Translation Dataset (Sample)},
+  title     = {Pidgin-to-English Translation Dataset (Sample)},
   year      = {2026},
   version   = {1.0},
-  note      = {Sample dataset - Part of BBC Igbo–Pidgin Gold-Standard NLP Corpus},
+  note      = {Sample dataset - Part of Igbo–Pidgin Gold-Standard NLP Corpus},
   publisher = {Hugging Face and Figshare},
   url       = {https://huggingface.co/datasets/Bytte-AI/BBC_Igbo-Pidgin_Gold-Standard_NLP_Corpus},
   license   = {CC-BY-4.0}
@@ -583,9 +583,9 @@ Potential improvements for future versions:
 
 <div align="center">
 
-**Part of the BBC Igbo–Pidgin Gold-Standard NLP Corpus**
+**Part of the Igbo–Pidgin Gold-Standard NLP Corpus**
 
-By [Bytte AI](https://www.bytte.xyz/) for African language NLP
+By Bytte AI for African language NLP
 
 [![License](https://img.shields.io/badge/license-CC--BY--4.0-green.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Hugging Face](https://img.shields.io/badge/🤗-Datasets-yellow.svg)](https://huggingface.co/datasets/Bytte-AI/BBC_Igbo-Pidgin_Gold-Standard_NLP_Corpus)
