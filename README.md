@@ -11,7 +11,7 @@
 
 **Sample dataset: Nigerian Pidgin to English translation pairs for machine translation research**
 
-[🤗 Hugging Face](https://huggingface.co/datasets/Bytte-AI/BBC_Igbo-Pidgin_Gold-Standard_NLP_Corpus) • [📊 Figshare](https://doi.org/10.6084/m9.figshare.31259068) • [🌐 Website](https://www.bytte.xyz/) • [📧 Contact](mailto:contact@bytteai.xyz)
+[🤗 Hugging Face](https://huggingface.co/datasets/Bytte-AI/Pidgin-to-English-conversational-translations) • [📊 Figshare](https://figshare.com/articles/dataset/_b_Pidgin-to-English-translations_b_/31259068) • [🌐 Website](https://www.bytte.xyz/) • [📧 Contact](mailto:contact@bytteai.xyz)
 
 </div>
 
@@ -19,9 +19,9 @@
 
 ## 📋 Overview
 
-The **Pidgin-to-English Translation Dataset (Sample)** is a conversational-style parallel corpus containing 122 translation pairs from Nigerian Pidgin English to Standard English. Created by **Bytte AI**, this sample dataset supports machine translation research, low-resource NLP, and cross-lingual understanding for African languages.
+The **Pidgin-to-English Translation Dataset (Sample)** is a conversational-style parallel corpus containing 122 translation pairs from Nigerian Pidgin English to Standard English. Created by **Bytte AI** through AI chatbot interactions with human validation, this sample dataset supports machine translation research, low-resource NLP, and cross-lingual understanding for African languages.
 
-> **📌 Sample Dataset Notice:** This is a **sample dataset** with 122 curated translation pairs. It demonstrates authentic Pidgin features and translation challenges, ideal for prototyping, fine-tuning, and initial MT research.
+> **📌 Sample Dataset Notice:** This is a **sample dataset** with 122 curated translation pairs generated through AI chatbot conversations. Ideal for prototyping, fine-tuning, and initial MT research.
 
 ### 🎯 Key Features
 
@@ -462,9 +462,9 @@ for item in data:
   title     = {Pidgin-to-English Translation Dataset (Sample)},
   year      = {2026},
   version   = {1.0},
-  note      = {Sample dataset - Part of Igbo–Pidgin Gold-Standard NLP Corpus},
+  note      = {Sample dataset - AI chatbot-generated translations},
   publisher = {Hugging Face and Figshare},
-  url       = {https://huggingface.co/datasets/Bytte-AI/BBC_Igbo-Pidgin_Gold-Standard_NLP_Corpus},
+  url       = {https://huggingface.co/datasets/Bytte-AI/Pidgin-to-English-conversational-translations},
   license   = {CC-BY-4.0}
 }
 ```
@@ -522,8 +522,8 @@ We welcome contributions:
 **Email:** contact@bytteai.xyz
 
 **Download:**
-- 🤗 Hugging Face: https://huggingface.co/datasets/Bytte-AI/BBC_Igbo-Pidgin_Gold-Standard_NLP_Corpus
-- 📊 Figshare: https://figshare.com/articles/dataset/BBC_Igbo_Pidgin_Gold-Standard_NLP_Corpus/31249567
+- 🤗 Hugging Face: https://huggingface.co/datasets/Bytte-AI/Pidgin-to-English-conversational-translations
+- 📊 Figshare: https://figshare.com/articles/dataset/_b_Pidgin-to-English-translations_b_/31259068
 
 ---
 
@@ -583,11 +583,11 @@ Potential improvements for future versions:
 
 <div align="center">
 
-**Part of the Igbo–Pidgin Gold-Standard NLP Corpus**
+**Pidgin-to-English Translation Dataset**
 
 By Bytte AI for African language NLP
 
 [![License](https://img.shields.io/badge/license-CC--BY--4.0-green.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Hugging Face](https://img.shields.io/badge/🤗-Datasets-yellow.svg)](https://huggingface.co/datasets/Bytte-AI/BBC_Igbo-Pidgin_Gold-Standard_NLP_Corpus)
+[![Hugging Face](https://img.shields.io/badge/🤗-Datasets-yellow.svg)](https://huggingface.co/datasets/Bytte-AI/Pidgin-to-English-conversational-translations)
 
 </div>
