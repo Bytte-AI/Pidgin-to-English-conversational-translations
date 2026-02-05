@@ -11,7 +11,7 @@
 
 **Sample dataset: Nigerian Pidgin to English translation pairs for machine translation research**
 
-[🤗 Hugging Face](https://huggingface.co/datasets/Bytte-AI/BBC_Igbo-Pidgin_Gold-Standard_NLP_Corpus) • [📊 Figshare](https://figshare.com/articles/dataset/BBC_Igbo_Pidgin_Gold-Standard_NLP_Corpus/31249567) • [🌐 Website](https://www.bytte.xyz/) • [📧 Contact](mailto:contact@bytteai.xyz)
+[🤗 Hugging Face](https://huggingface.co/datasets/Bytte-AI/BBC_Igbo-Pidgin_Gold-Standard_NLP_Corpus) • [📊 Figshare](https://doi.org/10.6084/m9.figshare.31259068) • [🌐 Website](https://www.bytte.xyz/) • [📧 Contact](mailto:contact@bytteai.xyz)
 
 </div>
 
