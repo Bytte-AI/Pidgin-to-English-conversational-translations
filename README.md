@@ -1,14 +1,15 @@
-# BBC Pidgin-to-English Translation Dataset
+# BBC Pidgin-to-English Translation Dataset (Sample)
 
 <div align="center">
 
 ![Version](https://img.shields.io/badge/version-1.0-blue.svg)
+![Type](https://img.shields.io/badge/type-Sample%20Dataset-purple.svg)
 ![License](https://img.shields.io/badge/license-CC--BY--4.0-green.svg)
 ![Language](https://img.shields.io/badge/language-Pidgin%20→%20English-orange.svg)
 ![Pairs](https://img.shields.io/badge/pairs-122-brightgreen.svg)
 ![Quality](https://img.shields.io/badge/consistency-84.43%25-yellow.svg)
 
-**Nigerian Pidgin to English translation pairs for machine translation research**
+**Sample dataset: Nigerian Pidgin to English translation pairs for machine translation research**
 
 [🤗 Hugging Face](https://huggingface.co/datasets/Bytte-AI/BBC_Igbo-Pidgin_Gold-Standard_NLP_Corpus) • [📊 Figshare](https://figshare.com/articles/dataset/BBC_Igbo_Pidgin_Gold-Standard_NLP_Corpus/31249567) • [🌐 Website](https://www.bytte.xyz/) • [📧 Contact](mailto:contact@bytteai.xyz)
 
@@ -18,7 +19,9 @@
 
 ## 📋 Overview
 
-The **BBC Pidgin-to-English Translation Dataset** is a conversational-style parallel corpus containing 122 translation pairs from Nigerian Pidgin English to Standard English. Created by **Bytte AI**, this dataset supports machine translation research, low-resource NLP, and cross-lingual understanding for African languages.
+The **BBC Pidgin-to-English Translation Dataset (Sample)** is a conversational-style parallel corpus containing 122 translation pairs from Nigerian Pidgin English to Standard English. Created by **Bytte AI**, this sample dataset supports machine translation research, low-resource NLP, and cross-lingual understanding for African languages.
+
+> **📌 Sample Dataset Notice:** This is a **sample dataset** with 122 curated translation pairs. It demonstrates authentic Pidgin features and translation challenges, ideal for prototyping, fine-tuning, and initial MT research.
 
 ### 🎯 Key Features
 
@@ -265,14 +268,16 @@ English: Sure! Here's a light-hearted Jollof rice joke:
 - Train separate models for direct translation vs. dialogue
 - Apply length constraints during inference
 
-### 🟡 Moderate: Limited Scale (122 pairs)
+### 🟡 Moderate: Limited Scale (Sample Dataset - 122 pairs)
+
+**Status:** This is a sample dataset
 
 **Comparison:**
-- This dataset: 122 pairs
+- This sample: 122 pairs
 - Typical low-resource MT: 10,000+ pairs
 - WMT datasets: Millions of pairs
 
-**Impact:** Insufficient for training from scratch.
+**Impact:** Insufficient for training from scratch; best for fine-tuning.
 
 **Mitigation:**
 - ✅ Use for fine-tuning only
@@ -454,12 +459,12 @@ for item in data:
 ```bibtex
 @dataset{bytte_ai_pidgin_english_translation_2026,
   author    = {Bytte AI},
-  title     = {BBC Pidgin-to-English Translation Dataset},
+  title     = {BBC Pidgin-to-English Translation Dataset (Sample)},
   year      = {2026},
   version   = {1.0},
+  note      = {Sample dataset - Part of BBC Igbo–Pidgin Gold-Standard NLP Corpus},
   publisher = {Hugging Face and Figshare},
   url       = {https://huggingface.co/datasets/Bytte-AI/BBC_Igbo-Pidgin_Gold-Standard_NLP_Corpus},
-  note      = {Part of BBC Igbo–Pidgin Gold-Standard NLP Corpus},
   license   = {CC-BY-4.0}
 }
 ```
@@ -580,7 +585,7 @@ Potential improvements for future versions:
 
 **Part of the BBC Igbo–Pidgin Gold-Standard NLP Corpus**
 
-Built with ❤️ by [Bytte AI](https://www.bytte.xyz/) for African language NLP
+By [Bytte AI](https://www.bytte.xyz/) for African language NLP
 
 [![License](https://img.shields.io/badge/license-CC--BY--4.0-green.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Hugging Face](https://img.shields.io/badge/🤗-Datasets-yellow.svg)](https://huggingface.co/datasets/Bytte-AI/BBC_Igbo-Pidgin_Gold-Standard_NLP_Corpus)
