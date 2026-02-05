@@ -1,13 +1,16 @@
-# BBC Pidgin-to-English Translation Dataset
+# Pidgin-to-English Translation Dataset (Sample)
 ## Data Card v1.0
 
-**Dataset Name:** BBC Pidgin-to-English Translation Dataset  
+**Dataset Name:** BBC Pidgin-to-English Translation Dataset (Sample)  
+**Dataset Type:** Sample Dataset  
 **Version:** 1.0  
 **Release Date:** 2026  
 **Organization:** Bytte AI  
 **License:** CC-BY-4.0  
 **Contact:** contact@bytteai.xyz  
 **Website:** https://www.bytte.xyz/
+
+> **Note:** This is a **sample dataset** containing a representative subset of translation pairs. It is designed for initial exploration, prototyping, and demonstrating translation quality for Nigerian Pidgin-English pairs.
 
 ---
 
@@ -26,7 +29,9 @@
 
 ## Dataset Overview
 
-The BBC Pidgin-to-English Translation Dataset is a conversational-style translation corpus containing 122 Pidgin-English to Standard English translation pairs. This dataset is designed to support machine translation research, low-resource language processing, and cross-lingual understanding between Nigerian Pidgin and English.
+The BBC Pidgin-to-English Translation Dataset is a conversational-style translation corpus containing 122 Pidgin-English to Standard English translation pairs. This **sample dataset** is designed to support machine translation research, low-resource language processing, and cross-lingual understanding between Nigerian Pidgin and English.
+
+**Sample Dataset Characteristics:** This dataset represents a curated sample of translation pairs demonstrating typical Pidgin-English conversational patterns and translation challenges. It showcases authentic Pidgin grammatical features and provides a foundation for prototyping translation systems.
 
 ### Key Statistics
 
@@ -320,15 +325,20 @@ English: Sure! Here's a light-hearted Jollof rice joke:
 - Train separate models for direct translation vs. conversational response
 - Apply length constraints during inference
 
-#### 3. **Limited Scale**
+#### 3. **Limited Scale (Sample Dataset)**
 
 **Size:** 122 translation pairs  
-**Impact:** Insufficient for training translation models from scratch
+**Status:** This is a sample dataset
+
+**Impact:** 
+- Insufficient for training translation models from scratch
+- Represents a curated sample, not the full corpus
+- Best suited for prototyping and fine-tuning
 
 **Comparison to Standard MT Datasets:**
 - WMT datasets: Millions of parallel sentences
 - Low-resource MT: Often 10,000+ pairs minimum
-- This dataset: 122 pairs (0.01% of typical scale)
+- This sample dataset: 122 pairs (0.01% of typical scale)
 
 **Mitigation:**
 - Use only for fine-tuning pre-trained models
@@ -525,19 +535,19 @@ If you use this dataset in your research or applications, please cite:
 ```bibtex
 @dataset{bytte_ai_pidgin_english_translation_2026,
   author    = {Bytte AI},
-  title     = {BBC Pidgin-to-English Translation Dataset},
+  title     = {BBC Pidgin-to-English Translation Dataset (Sample)},
   year      = {2026},
   version   = {1.0},
+  note      = {Sample dataset - Part of BBC Igbo–Pidgin Gold-Standard NLP Corpus},
   publisher = {Hugging Face and Figshare},
   url       = {https://huggingface.co/datasets/Bytte-AI/BBC_Igbo-Pidgin_Gold-Standard_NLP_Corpus},
-  note      = {Part of BBC Igbo–Pidgin Gold-Standard NLP Corpus},
   license   = {CC-BY-4.0}
 }
 ```
 
 **APA Format:**
 ```
-Bytte AI. (2026). BBC Pidgin-to-English Translation Dataset (Version 1.0) [Data set]. 
+Bytte AI. (2026). BBC Pidgin-to-English Translation Dataset (Sample) (Version 1.0) [Data set]. 
 Part of BBC Igbo–Pidgin Gold-Standard NLP Corpus. Hugging Face. 
 https://huggingface.co/datasets/Bytte-AI/BBC_Igbo-Pidgin_Gold-Standard_NLP_Corpus
 ```
