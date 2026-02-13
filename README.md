@@ -88,7 +88,7 @@ Target (English): He had already finished eating before you called him.
 
 ```bash
 # Clone the corpus repository
-git clone https://github.com/Bytte-AI/BBC_Igbo-Pidgin_Gold-Standard_NLP_Corpus.git
+git clone https://github.com/Bytte-AI/Pidgin-to-English-conversational-translations.git
 cd BBC_Igbo-Pidgin_Gold-Standard_NLP_Corpus
 
 # Install dependencies
